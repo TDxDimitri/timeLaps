@@ -1,0 +1,10 @@
+<div class="flex-column custom">
+    <div class="customCards">
+        <img width="100px" height="auto" [src]="selectedBlueItem.img" alt=""> 
+    </div>
+    <ul>
+        <li class="words" *ngFor="let word of selectedBlueItem.words">{{ word }}</li>
+    </ul>
+    <app-countdown-timer></app-countdown-timer>
+  </div>
+  

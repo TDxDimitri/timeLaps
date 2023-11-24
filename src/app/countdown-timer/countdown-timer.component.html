@@ -1,0 +1,6 @@
+<div class="countdown" [ngStyle]="getStyle()">
+    {{ countdown }}
+    <div class="circle">
+      <div *ngFor="let segment of segments" [ngStyle]="getSegmentStyle(segment)"></div>
+    </div>
+  </div>

@@ -1,0 +1,28 @@
+
+.custom{
+    padding: 25px;
+    border: 10px solid #fac05d;
+    background-color: white;
+    border-radius: 1rem;
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.customCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.words{
+    margin: auto;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: justify;
+
+}

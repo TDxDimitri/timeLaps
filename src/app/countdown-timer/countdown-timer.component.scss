@@ -1,0 +1,20 @@
+/* countdown-timer.component.css */
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circle {
+    display: flex;
+    margin-top: 10px; /* Ajustez la marge selon vos besoins */
+  }
+  
+  .circle div {
+    width: 10px; /* Ajustez la largeur du segment */
+    height: 10px; /* Ajustez la hauteur du segment */
+    margin: 0 2px; /* Ajustez la marge entre les segments */
+    border-radius: 50%; /* Rend les segments circulaires */
+  }
+  
